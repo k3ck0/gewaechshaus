@@ -5,5 +5,5 @@ sudo apt install python3-paho-mqtt
 
 zum testen im Terminal: 
 
-mosquitto -h
-mosquitto_sub -h [BROKER_ADRESS] -t [TOPIC]
+mosquitto -h                                        //starte den Broker
+mosquitto_sub -h [BROKER_ADRESS] -t [TOPIC]         //subscribe
